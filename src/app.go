@@ -236,7 +236,7 @@ func formatMetaProcess(gpu *gpuInfo, process *processInfo) string {
 	return fmt.Sprintf("%v,process_pid=\"%v\",process_type=\"%v\"", formatMetaGpu(gpu), process.Pid, process.Type)
 }
 
-func writeMetric(writer io.Writer, key string, value string, meta string) {
+func writeMetric(writer io.Writer, key string, meta string, value string) {
 	_, err := io.WriteString(writer, formatValue(key, meta, value))
 	if err != nil {
 		panic(fmt.Sprintf("could not write metric %v:%v", key, err))
