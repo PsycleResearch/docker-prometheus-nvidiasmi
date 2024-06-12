@@ -131,7 +131,7 @@ type gpuInfo struct {
 		EnforcedPowerLimit string `xml:"enforced_power_limit"`
 		MinPowerLimit      string `xml:"min_power_limit"`
 		MaxPowerLimit      string `xml:"max_power_limit"`
-	} `xml:"power_readings"`
+	} `xml:"gpu_power_readings"`
 	Clocks struct {
 		GraphicsClock string `xml:"graphics_clock"`
 		SmClock       string `xml:"sm_clock"`

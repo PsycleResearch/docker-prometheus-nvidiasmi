@@ -177,7 +177,7 @@
 			<memory_temp>N/A</memory_temp>
 			<gpu_temp_max_mem_threshold>N/A</gpu_temp_max_mem_threshold>
 		</temperature>
-		<power_readings>
+		<gpu_power_readings>
 			<power_state>P0</power_state>
 			<power_management>Supported</power_management>
 			<power_draw>45.45 W</power_draw>
